@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMP-NA</title>
+    <link rel="stylesheet" href="css/modules.css">
+    <!-- Подключение главного CSS-файла -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+    <div class="header__container">
+        <div class="header__menu menu">
+            <div class="menu__icon" id="menu-icon" data-open-block="menu"><span></span></div>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">FMP-NA</a></li>
+                    <li class="menu__item"><button data-scroll="#about" class="menu__link">Разработчики</и></li>
+                    <li class="menu__item"><button data-scroll="#games" href="#" class="menu__link">Наши игры</button></li>
+                    <li class="menu__item"><button data-scroll="#launcher" href="#" class="menu__link">Лаунчер (бета)</button></li>
+                    <li class="menu__item"><button data-scroll="#faq" href="#" class="menu__link">Ответы на вопросы</button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+    <main class="main">
+      <div class="welcome">
+	<div class="welcome__container">
+		<div class="welcome__block">
+			<span class="welcome__subtitle label">компания разработки игр</span>
+			<h1 class="welcome__title">FMP-NA</h1>
+			<p class="welcome__description">
+				FMP-NA - Команда в которой создаются игры для любого возраста. Игры компании FMP-NA интересны каждому своим сюжетом и лором. Компания FMP-NA создаёт игры разных жанров, но пока что только в 2D.
+			</p>
+			<button href="#" data-scroll="#about" class="welcome__button button button_color_red">Узнать больше</button>
+		</div>
+		<div class="welcome__block">
+			<img src="img/OIG.webp" alt="Не удалось загрузить изображение" class="welcome__image">
+		</div>
+	</div>
+</div>
+      <div class="about" id="about">
+	<div class="about__container">
+		<span class="about__subtitle label">наша команда</span>
+		<h2 class="about__title">Разработчики</h2>
+		<div class="about__cards">
+			<div class="about__card">
+				<img src="#img" alt="Не удалось загрузить изображение" class="about__image">
+				<div class="about__info">
+					<h3 class="about__name">Fakem1ner</h3>
+					<span class="about__work-title">Game Designer</span>
+				</div>
+			</div>
+			<div class="about__card">
+				<img src="#img" alt="Не удалось загрузить изображение" class="about__image">
+				<div class="about__info">
+					<h3 class="about__name">Kub1us</h3>
+					<span class="about__work-title">Lead Artist</span>
+				</div>
+			</div>
+			<div class="about__card">
+				<img src="#img" alt="Не удалось загрузить изображение" class="about__image">
+				<div class="about__info">
+					<h3 class="about__name">Player81</h3>
+					<span class="about__work-title">Game Tester</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+      <div class="games" id="games">
+	<div class="games__container">
+		<span class="games__subtitle label">проекты</span>
+		<h2 class="games__title">Наши игры</h2>
+		<p class="games__description">
+			FMP-NA создает игры для всех. Это — лишь некоторые из них. Посмотрите, вдруг что-то понравится.
+		</p>
+		<div class="games__slider splide" role="group" aria-label="Splide Basic HTML Example">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<img src="img/cassy-caly.webp" alt="Cassy Caly скриншот" class="games__image">
+						<a href="#" class="games__button button button_color_red">Узнать больше</a>
+					</li>
+					<li class="splide__slide">
+						<img src="img/coming-soon.webp" alt="Не удалось загрузить изображение" class="games__image">
+						<a href="#" class="games__button button button_color_red">Узнать больше</a>
+					</li>
+					<li class="splide__slide">
+						<img src="img/coming-soon.webp" alt="Не удалось загрузить изображение" class="games__image">
+						<a href="#" class="games__button button button_color_red">Узнать больше</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+      <div class="launcher" id="launcher">
+	<div class="launcher__container">
+		<span class="launcher__subtitle label">поддержка</span>
+		<h2 class="launcher__title">Наш лаунчер</h2>
+		<p class="launcher__description">
+			Через наш лаунчер вы сможете скачать наши игры. Попробуйте — он современный и удобный, а еще туда приходят обновления для игр.
+		</p>
+		<img src="img/launcher-design.webp" alt="Не удалось загрузить изображение" class="launcher__image">
+		<a href="#" class="launcher__button button button_color_red">Скачать</a>
+	</div>
+</div>
+      <div class="faq" id="faq">
+	<div class="faq__container">
+		<span class="faq__subtitle label">о нашей команде и играх</span>
+		<h2 class="faq__title">Ответы на вопросы</h2>
+		<p class="faq__description">Это — ответы на частозадаваемые вопросы. Если вас что-то интересует — поищите здесь или <button class="faq__button">спросите</button>.</p>
+		<div class="faq__spoilers">
+			<div class="faq__spoiler faq-spoiler" data-spoiler>
+				<div class="faq-spoiler__title spoiler-title">Чем FMP-NA отличается от других разработчиков игр?</div>
+				<div class="faq-spoiler__content spoiler-content">FMP-NA - единая независимая команда, где разные игры создаются одними людьми, учитываются все просьбы игроков, а процесс происходит открыто.</div>
+			</div>
+			<div class="faq__spoiler faq-spoiler" data-spoiler>
+				<div class="faq-spoiler__title spoiler-title">Как скачать игры FMP-NA?</div>
+				<div class="faq-spoiler__content spoiler-content">Скачать любую из игр FMP-NA можно через <button class="faq__button link" data-scroll="#launcher">лаунчер</button>.</div>
+			</div>
+			<div class="faq__spoiler faq-spoiler" data-spoiler>
+				<div class="faq-spoiler__title spoiler-title">Где узнать о процессе создания игр?</div>
+				<div class="faq-spoiler__content spoiler-content">Мы делимся всеми новостями о наших играх, даем спойлеры и выкладывает бета-версии в <a href="#" class="faq__link link">телеграм-канале</a>. Также там есть опросы, где вы можете повлиять на судьбу игр.</div>
+			</div>
+		</div>
+	</div>
+</div>
+    </main>
+    <footer class="footer">
+    <div class="footer__container">
+        
+    </div>
+</footer>
+    
+    
+  </div>
+  <!-- Подключение главного JavaScript-файла -->
+<script src="js/app.min.js"></script>
+</body>
+</html>
